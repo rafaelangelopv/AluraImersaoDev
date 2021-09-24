@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  font-family: Ubuntu;
+  min-height: 600px;
+  background-image: linear-gradient(to bottom, #652dad, #272030, #00a9f7);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 80px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+h2 {
+  color: #000000;
+  margin-top: 16px;
+  background-color: rgba(218, 223, 225, 0.6);
+  border-radius: 25px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  size: 3px;
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  border-radius: 25px;
+  background: #ffffff;
+  background-color: #652dad;
+  color: #ffffff;
+  padding: 20px;
+  width: 50%;
+  font-size: 16px;
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 36px;
+}

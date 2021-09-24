@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
+	radial-gradient(at top center,rgba(255, 255, 255, 0.4) 0%,rgba(0, 0, 0, 0.4) 120%)#989898;
+	
+}
+
+.container {
+	background: #ecf4ff;
+	color: #1c1c1c;
+	margin: 64px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	padding: 64px;
+}
+
+.perfil {
+	display: flex;
+	align-items: center;
+}
+
+.perfil-foto {
+	border-radius: 460px;
+	box-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	max-height: 160px;
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.titulo h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+li {
+	font-weight: 400;
+	font-size: 24px;
+	margin: 16px;
+	list-style-type: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	align-items: left
+	background: #bdc3c7;
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
+	background: linear-gradient(to right, #2c3e50, #bdc3c7);
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+	border-radius: 20px;
+  padding: 25px;
+  margin: 75px;
+}
+
+
+.linkedin{
+  max-width: 30px;
+}
+
+.github {
+  max-width: 30px;
+}
+
+.codepen {
+  max-width: 30px;
+}

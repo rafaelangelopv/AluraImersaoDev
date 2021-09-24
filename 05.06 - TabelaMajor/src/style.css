@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Ubuntu";
+  min-height: 400px;
+  background-image: url("https://e1.365dm.com/18/09/2048x1152/skysports-faceit-major-csgo_4426469.jpg");
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: black;
+  background-color: rgba(218, 223, 225, 0.7);
+}
+
+th,
+tr,
+td {
+  border: solid 1px black;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(218, 223, 225, 0.5);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.imgTime {
+  max-height: 30px;
+}

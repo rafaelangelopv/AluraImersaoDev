@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1><strong>« Tabela Major »</strong><br>Counter Strike Global Offensive</h1>
+  <div>
+    <input type="text" id="novoTeam" name="novoTeam" placeholder="Nome do novo Time">
+    <br><br>
+    <input type="text" id="novoImg" name="novoImg" placeholder="Insira endereço da imagem">
+  </div>
+  <br>
+  <div class="botoes">
+    <button onclick="adicionarTime()">Adicionar Time</button>
+    <br><br>
+    <button class="botao" type="submit" onclick="limparTabela(times)">Limpar Tabela</button>
+    <br><br>
+  </div>
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Time</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Remover</th>
+        <th>Pontos</th>
+        <th colspan=4></th>
+      </tr>
+    </thead>
+    <tbody id="tabelaTimes">
+    </tbody>
+  </table>
+</body>
+
+</html>

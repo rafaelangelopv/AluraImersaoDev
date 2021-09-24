@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 07 e Aula 08
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+    <h1 class="page-title">Super Trunfo Linguagens de Programação</h1>
+    <button onclick="sortearCarta()" id="btnSortear">Sortear Linguagem</button>
+    <form id="form">
+      <h2>Escolha o seu Atributo</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+      </div>
+      <div class="wrapper">
+        <div id="resultado"></div><br>
+        <!--         <button type="button" id="btnJogarNovamente" onclick="jogarNovamente()" disabled="true">Jogar Novamente</button> -->
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
